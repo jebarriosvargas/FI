@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FI",
+    "section": "",
+    "text": "Preface\nAnotaciones del curso de Física I (clave: 1113) de la Facultad de Química, UNAM; las cuales fueron generadas utilizando Quarto books https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "1_1_magnitudesfisicas.html",
+    "href": "1_1_magnitudesfisicas.html",
+    "title": "1  Magnitudes, potencias de diez, unidades y dimensiones",
+    "section": "",
+    "text": "La física explora de lo más pequeño a lo más grande, desde una fracción de un protón hasta el tamaño del universo.\n\nCon el fin de expresar medidas de una forma cuantitativa (sin ambigüedad) tenemos que introducir unidades.\n\nEl Sistema Internacional de unidades (abreviado SI, del francés Système international d’unités) es un sistema constituido por siete unidades básicas: metro, kilogramo, segundo, kelvin, ampere, mol y candela, que definen a las correspondientes magnitudes físicas fundamentales y que han sido elegidas por convención.\n\n\n\n\n\n\n\n\n\nUnidades básicas del Sistema Internacional."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]

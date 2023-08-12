@@ -1,0 +1,20 @@
+# Magnitudes, potencias de diez, unidades y dimensiones
+
+
+::: {.justify}
+La física explora de lo más pequeño a lo más grande, desde una fracción de un protón hasta el tamaño del universo.
+
+
+> Con el fin de expresar medidas de una forma **cuantitativa** (sin ambigüedad) tenemos que introducir unidades.
+
+
+El Sistema Internacional de unidades (abreviado SI, del francés *Système international d'unités*) es un sistema constituido por siete unidades básicas: metro, kilogramo, segundo, kelvin, ampere, mol y candela, que definen a las correspondientes magnitudes físicas fundamentales y que han sido elegidas por convención. 
+:::
+
+::: {.column-margin}
+![Unidades básicas del Sistema Internacional
+demichelle
+.](img/SI_wheel.png){width=200}
+:::
+
+

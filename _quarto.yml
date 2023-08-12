@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "FI"
+  author: "JEBV"
+  date: "8/11/2023"
+  chapters:
+    - index.qmd
+    - part: "1. Elementos básicos"
+      chapters:
+        - 1_1_magnitudesfisicas.qmd
+    - part: "2. Movimiento en una dimensión"
+    - part: "3. Vectores y movimiento en más de una dimensión"
+    - part: "4. Las leyes de movimiento"
+    - part: "5. Energía"
+    - part: "6. Cantidad de movimiento y choques"
+    - part: "7. Movimiento rotacional"
+    - part: "8. Equilibrio rotacional y dinámica rotacional"
+    - part: "Apéndice. Mathematica by Wolfram."
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: united
+      dark: slate
+    css: style.css
+  pdf:
+    documentclass: scrreprt
+
+
+
