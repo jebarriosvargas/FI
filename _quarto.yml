@@ -31,6 +31,8 @@ format:
       light: united
       dark: slate
     css: style.css
+    toc: true
+    toc-title: Contenido
   pdf:
     documentclass: scrreprt
 

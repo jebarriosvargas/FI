@@ -12,9 +12,140 @@ El Sistema Internacional de unidades (abreviado SI, del francés *Système inter
 :::
 
 ::: {.column-margin}
-![Unidades básicas del Sistema Internacional
-demichelle
-.](img/SI_wheel.png){width=200}
+![Unidades básicas del Sistema Internacional.](img/SI_wheel.png){width=200}
+
+::: {.justify}
+En mayo de 2019 se estableció que las unidades se derivan de constantes físicas de la naturaleza.
+:::
+:::
+
+Las **siete** constantes físicas son las siguientes:
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $\Delta \nu_{\rm Cs}=9.192631770\times 10^9\;{\rm s}^{-1}$ 
+
+La frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de cesio 133.
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $c=2.99792458\times 10^8\;{\rm m}\cdot {\rm s}^{-1}$
+
+La rapidez de la luz en el vacío.
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $h=6.62607015\times 10^{-34}\;{\rm J}\cdot{\rm s}$
+La constante de Plank.
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $e=1.602176634\times 10^{-19}\;{\rm C}$
+La carga elemental
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $k=1.380649\times 10^{-23}\;{\rm J}\cdot {\rm K}^{-1}$
+La constante de Boltzmann. 
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $N_{\rm A}=6.02214076\times 10^{23}\;{\rm mol}^{-1}$
+Número de Avogadro.
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## $K_{\rm cd}=683\;{\rm lm}\cdot{\rm W}^{-1}$
+La eficacia luminosa de la radiación monocromática de $540\;{\rm THz}$.
+:::
+
+## Unidades
+
+De dichas constantes físicas se derivan las **siete** unidades fundamentales:
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El segundo, ${\rm s}$
+$$
+1\;{\rm s}=\frac{9.192631770\times 10^9}{\Delta\nu_{\rm Cs}}
+$$
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El metro, ${\rm m}$
+$$
+1\;{\rm m}=30.663319\frac{c}{\Delta\nu_{\rm Cs} }
+$$
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El kilogramo, ${\rm kg}$
+
+$$
+1\;{\rm kg}=1.4755211\times 10^{40}\frac{h\Delta\nu_{\rm Cs}  }{c^2}
+$$
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El ampere, ${\rm A}$
+$$
+1\;{\rm A}=6.789687\times 10^{8}\Delta\nu_{\rm Cs}e
+$$
 :::
 
 
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El kelvin, ${\rm K}$
+$$
+1\;{\rm K}=2.2666653\frac{\Delta\nu_{\rm Cs} h}{k}
+$$
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## El mol, ${\rm mol}$
+$$
+1\;{\rm mol}=\frac{6.02214076\times 10^{23}}{N_{\rm A}}
+$$
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## La candela, ${\rm cd}$
+$$
+1\;{\rm cd}=2.614830\times 10^{10}(\Delta\nu_{\rm Cs})^2 h K_{\rm cd}
+$$
+:::
+
+Otras unidades derivadas
+
+Newton, ${\rm N}={\rm kg}\cdot {\rm m}\cdot{\rm s}^{-2}$
+
+Joule, ${\rm J} = {\rm kg} \cdot {\rm m}^{2}\cdot{\rm s}^{-2} = {\rm N}\cdot {\rm m}$
+
+Watt, ${\rm W}={\rm J}\cdot{\rm s}^{-1}={\rm kg} \cdot {\rm m}^{2}\cdot{\rm s}^{-3}$
+
+## Magnitudes
+
+En mecánica, las magnitudes que utilizaremos son:
+
+- Longitud, ${\rm L}$
+- Tiempo, ${\rm T}$
+- Masa, ${\rm M}$
+
+## Escalas y ordenes de magnitud
+
+Potencias de diez
+{{< video https://youtu.be/pGzP56JZ0r4 >}}
+
+Voyage into the world of atoms
+{{< video https://youtu.be/7WhRJV_bAiE >}}
+
+Escalas de tiempo
+{{< video https://youtu.be/c6QMET7JQfc >}}
+
+## Videos (¿qué es lo más pequeño que podemos ver?)
+A boy and his atom
+{{< video https://youtu.be/oSCX78-8-q0 >}}
+
+Have you ever seen an atom?
+{{< video https://youtu.be/yqLlgIaz1L0 >}}
+
+Scientists in Sweden film moving electron for the first time
+{{< video https://youtu.be/ofp-OHIq6Wo >}}
