@@ -129,23 +129,41 @@ En mecánica, las magnitudes que utilizaremos son:
 - Tiempo, ${\rm T}$
 - Masa, ${\rm M}$
 
+## Prefijos
+
+
+
+
 ## Escalas y ordenes de magnitud
 
-Potencias de diez
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## Potencias de diez
 {{< video https://youtu.be/pGzP56JZ0r4 >}}
+:::
 
-Voyage into the world of atoms
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## Voyage into the world of atoms
 {{< video https://youtu.be/7WhRJV_bAiE >}}
+:::
 
-Escalas de tiempo
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## Escalas de tiempo
 {{< video https://youtu.be/c6QMET7JQfc >}}
+:::
 
 ## Videos (¿qué es lo más pequeño que podemos ver?)
-A boy and his atom
+
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## A boy and his atom
 {{< video https://youtu.be/oSCX78-8-q0 >}}
+:::
 
-Have you ever seen an atom?
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## Have you ever seen an atom?
 {{< video https://youtu.be/yqLlgIaz1L0 >}}
+:::
 
-Scientists in Sweden film moving electron for the first time
+::: {.callout-warning appearance="simple" icon=false collapse="true"}
+## Scientists in Sweden film moving electron for the first time
 {{< video https://youtu.be/ofp-OHIq6Wo >}}
+:::
