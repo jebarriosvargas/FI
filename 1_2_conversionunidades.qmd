@@ -44,12 +44,24 @@ $$
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $10\,{\rm ft}$ en metros (${\rm m}$)
-
+Recordamos el factor de coversión de pies a metros, $1\,{\rm ft}=0.3048\,{\rm m}$
+$$
+\begin{align}
+10\,{\rm ft} = 10 \bigg( 0.3048\,{\rm m}  \bigg) = 3.048\,{\rm m}
+\end{align}
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $9.8\,{\rm m/s^2}$ en ${\rm ft/s^2}$
-
+Recordamos el factor de conversión de pieas a metros $1\,{\rm ft}=0.3048\,{\rm m}$. Entonces, podemos escribir que 
+$$
+1\,{\rm ft}=0.3048\,{\rm m} \quad \Rightarrow \quad \frac{1}{0.3048}\,{\rm ft} = 1\,{\rm m}
+$$
+Sustituimos el factor de conversión,
+$$
+9.8\,{\rm m/s^2} = 9.8\bigg( \frac{1}{0.3048}\,{\rm ft} \bigg) = 32.15\,\frac{{\rm ft}}{\rm s^2}
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
