@@ -1,10 +1,19 @@
 # Conversión de unidades
 
+Frecuentemente tendremos que realizar conversión de unidades, para lo cual necesitaremos conocer los factores de conversión.
+
 ## Ejercicios de conversión de unidades
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $5\,{\rm cm}$ en metros (${\rm m}$)
-
+Recordamos que el factor de conversión de centímetros a metros es:
+$$
+1\,{\rm m} = 100\,{\rm cm} \quad \Rightarrow\quad 1\,{\rm cm} = \frac{1}{100} \,{\rm m}
+$$
+Por lo que,
+$$
+5\,{\rm cm} = 5\bigg( \frac{1}{100} \,{\rm m} \bigg) =\frac{5}{100}\,{\rm m} = 0.05\,{\rm m}= 5\times 10^{-2}\,{\rm m}
+$$
 :::
 
 
@@ -34,10 +43,29 @@
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
-## Escriba $300\,{\rm K}$ en celcius ${\rm ^\circ C}$
+## Escriba $300\,{\rm K}$ en ${\rm ^\circ C}$
 
 :::
 
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Escriba $1\,{\rm eV}$ en ${\rm cal}$
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Escriba la constante $h=6.626\times 10^{-34}\,{\rm J}\cdot {\rm s}$ en ${\rm eV}\cdot {\rm s}$
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Escriba $1\,{\rm m}^2$ en ${\rm cm}^2$
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Si $1\,{\rm cm}^3=1\,{\rm mL}$, ¿a cuántos litros equivale un metro cúbico?
+
+:::
 
 ## Colab
 
