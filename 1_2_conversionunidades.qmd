@@ -83,5 +83,20 @@ Ahora tenemos un cuaderno de trabajo nuevo.
 
 ![Nuevo cuaderno de trabajo de Colab de google.](img/inicionotebook.png){fig-align="left" width=400}
 
+Python es un idioma de programación interpretado que significa que como se escribe se lee. Ocupemos el servicio de Colab para realizar operaciones como una calculadora. 
 
+Retomemos el ejemplo de 
+
+> Escriba $5\,{\rm cm}$ en metros (${\rm m}$). Donde la operación a realizar es,
+$$
+5\bigg( \frac{1}{100} \bigg)
+$$
+
+Escribimos la operación en la celda de código 
+```python
+5*(1/100)
+```
+y tecleamos {{< kbd Shift-Enter >}}
+
+![Operación vista en Colab.](img/operacioninicialcolab.png){fig-align="left" width=400}
 
