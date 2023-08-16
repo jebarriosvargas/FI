@@ -121,23 +121,23 @@ Joule, ${\rm J} = {\rm kg} \cdot {\rm m}^{2}\cdot{\rm s}^{-2} = {\rm N}\cdot {\r
 
 Watt, ${\rm W}={\rm J}\cdot{\rm s}^{-1}={\rm kg} \cdot {\rm m}^{2}\cdot{\rm s}^{-3}$
 
-## Magnitudes
+## Dimensiones
 
-En mecánica, las magnitudes que utilizaremos son:
+En mecánica, las dimensiones que utilizaremos son:
 
 - Longitud, ${\rm L}$
 - Tiempo, ${\rm T}$
 - Masa, ${\rm M}$
 
-Por ejemplo veamos diferentes cantidades físicas y sus magnitudes. 
+Por ejemplo veamos diferentes cantidades físicas y sus dimensiones. 
 
-* La distancia de la Facultad de Química al metro Copilco es $1.1\,{\rm km}$ o $1.3\,{\rm km}$ dependiendo del camino. Ambas distancias representan una magnitud de longitud, ${\rm L}$.
+* La distancia de la Facultad de Química al metro Copilco es $1.1\,{\rm km}$ o $1.3\,{\rm km}$ dependiendo del camino. Ambas distancias representan una cantidad con dimensiones de longitud, ${\rm L}$.
 
 ![Caminata de la FQ-UNAM al metro Copilco.](img/FQaCopilco.png){fig-align="left" width=400}
 
-* Otra cantidad física es la rapidez del sonido en el aire a $20\,^\circ {\rm C}$ es $343\,{\rm m/s}=343\,{\rm m}\cdot{\rm s}^{-1}$. La rapidez tiene magnitudes de longitud entre tiempo ${\rm L/T}={\rm L}\cdot {\rm T}^{-1}$.
+* Otra cantidad física es la rapidez del sonido en el aire a $20\,^\circ {\rm C}$ es $343\,{\rm m/s}=343\,{\rm m}\cdot{\rm s}^{-1}$. La rapidez tiene dimensiones de longitud entre tiempo ${\rm L/T}={\rm L}\cdot {\rm T}^{-1}$.
 
-* La fuerza en el que el oxígeno realiza sobre el carbono en la molécula de monóxido de carbono es 
+* La fuerza en el que el oxígeno realiza sobre el carbono en la molécula de monóxido de carbono es aproximadamente $215\,{\rm nN}$. La fuerza tiene dimensiones de ${\rm M}\cdot {\rm L}\cdot{\rm T}^{-2}$.
 
 ## Prefijos
 
