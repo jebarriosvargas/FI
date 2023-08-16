@@ -19,11 +19,26 @@ $$
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $450\,{\rm nm}$ en metros (${\rm m}$)
-
+Recordamos el factor de conversión de $1\,{\rm nm}=1\times 10^{-9}\,{\rm m}$ y lo sustituimos
+$$
+\begin{align}
+450\,{\rm nm} = 450\bigg( 1\times 10^{-9}\,{\rm m}  \bigg) =&\, 450\times 10^{-9}\,{\rm m}\\
+=&\,0.450\times 10^{-6}\,{\rm m}\\
+=&\,0.000000450\,{\rm m}
+\end{align}
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $10\,{\rm fs}$ en segundos (${\rm s}$)
+Recordamos el factor de conversión $1\,{\rm fs}=1\times 10^{-15}\,{\rm s}$ y lo sustituimos
+$$
+\begin{align}
+10\,{\rm fs} = 10\bigg( 1\times 10^{-15}\,{\rm s} \bigg) &= 10\times 10^{-15}\,{\rm s}\\
+&= 1\times 10^{-14}\,{\rm s}
+&= 0.00000000000001\,{\rm s}
+\end{align}
+$$
 
 :::
 
