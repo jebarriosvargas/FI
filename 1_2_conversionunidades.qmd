@@ -66,22 +66,50 @@ $$
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $1.0\,{\rm nm/fs}$ en ${\rm m/s}$
+En este ejercicio necsitamos dos factores de conversión
+$$
+1\,{\rm nm} = 1\times 10 ^{-9}\,{\rm m} \quad \text{y} \quad 1\,{\rm fs} = 1\times 10^{-15}\,{\rm s}
+$$
+Sustituimos ambos factores
 
+$$
+\begin{align}
+1.0\,\frac{{\rm nm}}{{\rm fs}} = 1.0 \bigg( \frac{1\times 10^{-9} \,{\rm m}}{1\times 10^{-15}\,{\rm s}} \bigg)&= 1.0\bigg( 1\times 10^{-9+15} \frac{{\rm m}}{{\rm s}} \bigg)\\
+&=1.0\bigg( 1\times 10^{6} \frac{{\rm m}}{{\rm s}} \bigg)\\
+&=1.0\times 10^{6}\frac{{\rm m}}{{\rm s}} 
+\end{align}
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $300\,{\rm K}$ en ${\rm ^\circ C}$
+En este caso la conversión de Celsius a Kelvin esta dada por la siguiente relación
+$$
+\text{Temperatura en }{\rm K}=\text{Temperatura en }^\circ{\rm C}-273.15
+$$
+Entonces podemos escribir que
+$$
+\text{Temperatura en }^\circ{\rm C}=\text{Temperatura en }{\rm K}+273.15
+$$
+Por lo que,
+$$
+\text{Temperatura en }^\circ{\rm C} = 300\,{\rm K}+273.15=26.85\,^\circ{\rm C}
+$$
 
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
-## Escriba $1\,{\rm eV}$ en ${\rm cal}$
+## Escriba $0.3\,{\rm eV}$ en ${\rm cal}$
+El factor de conversión es $1 \,{\rm eV}=3.83\times 10^{-20}\,{\rm cal}$. Sustituimos,
+$$
+0.3\,{\rm eV} = 0.3\bigg( 3.83\times 10^{-20}\,{\rm cal} \bigg) = 1.149\times 10^{-20}\,{\rm cal}
+$$
 
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba la constante $h=6.626\times 10^{-34}\,{\rm J}\cdot {\rm s}$ en ${\rm eV}\cdot {\rm s}$
-
+Recordamos el factor de conversión de $1\,{\rm eV}=1.602\times 10^{-19}\,{\rm J}$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
@@ -95,8 +123,9 @@ $$
 :::
 
 ## Colab
-
+:::{.justify}
 Colab es un servicio de google en el cual podemos utilizar una computadora virtualmente a la cual podemos darle instrucciones mediante un cuaderno de trabajo (*notebook*). En el cuaderno de trabajo hay dos tipos de recuadros de instrucciones, llamadas celdas (*cells*): celdas de código (*code*) y celdas de texto (*text*). En las celdas de código se pueden escribir instrucciones del idioma de programación de python y en las celdas de texto se puede escribir texto en idioma markdown.
+:::
 
 Comenzamos iniciando al servicio con una cuenta de Google en el sitio <https://colab.research.google.com/>.
 
@@ -123,7 +152,7 @@ Escribimos la operación en la celda de código
 ```python
 5*(1/100)
 ```
-y tecleamos {{< kbd Shift-Enter >}}
+y tecleamos {{< kbd Shift-Enter >}} y obtendriamos lo siguiente
 
 ![Operación vista en Colab.](img/operacioninicialcolab.png){fig-align="left" width=400}
 

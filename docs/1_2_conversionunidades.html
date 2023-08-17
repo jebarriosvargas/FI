@@ -376,7 +376,16 @@ Escriba <span class="math inline">\(1.0\,{\rm nm/fs}\)</span> en <span class="ma
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>En este ejercicio necsitamos dos factores de conversión <span class="math display">\[
+1\,{\rm nm} = 1\times 10 ^{-9}\,{\rm m} \quad \text{y} \quad 1\,{\rm fs} = 1\times 10^{-15}\,{\rm s}
+\]</span> Sustituimos ambos factores</p>
+<p><span class="math display">\[
+\begin{align}
+1.0\,\frac{{\rm nm}}{{\rm fs}} = 1.0 \bigg( \frac{1\times 10^{-9} \,{\rm m}}{1\times 10^{-15}\,{\rm s}} \bigg)&amp;= 1.0\bigg( 1\times 10^{-9+15} \frac{{\rm m}}{{\rm s}} \bigg)\\
+&amp;=1.0\bigg( 1\times 10^{6} \frac{{\rm m}}{{\rm s}} \bigg)\\
+&amp;=1.0\times 10^{6}\frac{{\rm m}}{{\rm s}}
+\end{align}
+\]</span></p>
 </div>
 </div>
 </div>
@@ -392,7 +401,13 @@ Escriba <span class="math inline">\(300\,{\rm K}\)</span> en <span class="math i
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>En este caso la conversión de Celsius a Kelvin esta dada por la siguiente relación <span class="math display">\[
+\text{Temperatura en }{\rm K}=\text{Temperatura en }^\circ{\rm C}-273.15
+\]</span> Entonces podemos escribir que <span class="math display">\[
+\text{Temperatura en }^\circ{\rm C}=\text{Temperatura en }{\rm K}+273.15
+\]</span> Por lo que, <span class="math display">\[
+\text{Temperatura en }^\circ{\rm C} = 300\,{\rm K}+273.15=26.85\,^\circ{\rm C}
+\]</span></p>
 </div>
 </div>
 </div>
@@ -402,13 +417,15 @@ Escriba <span class="math inline">\(300\,{\rm K}\)</span> en <span class="math i
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Escriba <span class="math inline">\(1\,{\rm eV}\)</span> en <span class="math inline">\({\rm cal}\)</span>
+Escriba <span class="math inline">\(0.3\,{\rm eV}\)</span> en <span class="math inline">\({\rm cal}\)</span>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>El factor de conversión es <span class="math inline">\(1 \,{\rm eV}=3.83\times 10^{-20}\,{\rm cal}\)</span>. Sustituimos, <span class="math display">\[
+0.3\,{\rm eV} = 0.3\bigg( 3.83\times 10^{-20}\,{\rm cal} \bigg) = 1.149\times 10^{-20}\,{\rm cal}
+\]</span></p>
 </div>
 </div>
 </div>
@@ -424,7 +441,7 @@ Escriba la constante <span class="math inline">\(h=6.626\times 10^{-34}\,{\rm J}
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>Recordamos el factor de conversión de <span class="math inline">\(1\,{\rm eV}=1.602\times 10^{-19}\,{\rm J}\)</span></p>
 </div>
 </div>
 </div>
@@ -463,7 +480,9 @@ Si <span class="math inline">\(1\,{\rm cm}^3=1\,{\rm mL}\)</span>, ¿a cuántos 
 </section>
 <section id="colab" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="colab"><span class="header-section-number">2.2</span> Colab</h2>
+<div class="justify">
 <p>Colab es un servicio de google en el cual podemos utilizar una computadora virtualmente a la cual podemos darle instrucciones mediante un cuaderno de trabajo (<em>notebook</em>). En el cuaderno de trabajo hay dos tipos de recuadros de instrucciones, llamadas celdas (<em>cells</em>): celdas de código (<em>code</em>) y celdas de texto (<em>text</em>). En las celdas de código se pueden escribir instrucciones del idioma de programación de python y en las celdas de texto se puede escribir texto en idioma markdown.</p>
+</div>
 <p>Comenzamos iniciando al servicio con una cuenta de Google en el sitio <a href="https://colab.research.google.com/" class="uri">https://colab.research.google.com/</a>.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
@@ -494,7 +513,7 @@ Si <span class="math inline">\(1\,{\rm cm}^3=1\,{\rm mL}\)</span>, ¿a cuántos 
 </blockquote>
 <p>Escribimos la operación en la celda de código</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span><span class="op">*</span>(<span class="dv">1</span><span class="op">/</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>y tecleamos <kbd>Shift-Enter</kbd></p>
+<p>y tecleamos <kbd>Shift-Enter</kbd> y obtendriamos lo siguiente</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="img/operacioninicialcolab.png" class="img-fluid figure-img" width="400"></p>
