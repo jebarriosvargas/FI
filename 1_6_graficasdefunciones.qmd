@@ -1,0 +1,11 @@
+# Graficación de funciones de una variable real
+
+## Geogebra
+
+Ingresar al sitio <https://www.geogebra.org/>
+
+![Página inicial Geogebra.](img/inicioGeogebra.png){fig-align="left" width=400}
+
+Al dar click en **Start calculator** <https://www.geogebra.org/calculator>
+
+![Geogebra.](img/inicioCalculator.png){fig-align="left" width=400}

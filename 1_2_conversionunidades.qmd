@@ -109,17 +109,68 @@ $$
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba la constante $h=6.626\times 10^{-34}\,{\rm J}\cdot {\rm s}$ en ${\rm eV}\cdot {\rm s}$
-Recordamos el factor de conversión de $1\,{\rm eV}=1.602\times 10^{-19}\,{\rm J}$
+Recordamos el factor de conversión de $1\,{\rm eV}=1.602\times 10^{-19}\,{\rm J}$ entonces 
+$$
+1\,{\rm J} = \frac{1}{1.602\times 10^{-19}}\,{\rm eV}
+$$
+Sustituyendo, tenemos que 
+$$
+\begin{align}
+h = 6.626\times 10^{-34}\,{\rm J}\cdot {\rm s} &= 6.626\times 10^{-34}\bigg( \frac{1}{1.602\times 10^{-19}} \bigg)\,{\rm eV}\cdot {\rm s}\\
+&= 4.136 \times 10^{-34+19} \,{\rm eV}\cdot {\rm s}\\
+&= 4.136 \times 10^{-15} \,{\rm eV}\cdot {\rm s}
+\end{align}
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
 ## Escriba $1\,{\rm m}^2$ en ${\rm cm}^2$
-
+Recordamos que $1\,{\rm m}=100\,{\rm cm}$, entonces sustituimos
+$$
+1\,{\rm m}^2 = 1 \bigg( 100\,{\rm cm} \bigg)^2 = 1\bigg( 10000 \,{\rm cm}^2 \bigg) = 10000 \,{\rm cm}^2
+$$
 :::
 
 ::: {.callout-tip appearance="simple" icon=false collapse="true"}
-## Si $1\,{\rm cm}^3=1\,{\rm mL}$, ¿a cuántos litros equivale un metro cúbico?
+## Si $1\,{\rm cm}^3=1\,{\rm mL}$, ¿a cuántos metros cúbicos equivale un litro?
+Comenzamos determinando cuántos mililitros equivalen a un litro, después convertimos a los mililitros a centímetros cúbicos y finalmente a metros cúbicos.
+$$
+\begin{align}
+1\,{\rm L} = 1000\,{\rm ml} = 1000\,{\rm cm^3} = 1000\bigg( \frac{1}{100}\,{\rm m} \bigg)^3 &= 1000\bigg( \frac{1}{1000000}\,{\rm m}^3 \bigg)\\
+&= \frac{1000}{1000000}\,{\rm m}^3 \\
+&= \frac{1\cancel{000}}{1000\cancel{000}}\,{\rm m}^3 \\
+&= \frac{1}{1000}\,{\rm m}^3\\
+&= 1\times 10^{-3}\,{\rm m}
+\end{align}
+$$
+:::
 
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Si $1\,{\rm cm}^3=1\,{\rm mL}$, ¿a cuántos litros equivale un metro cúbico?
+Comenzamos determinando a cuántos centímetros cúbicos equivalen un metro cúbico, después cambiamos a mililitros y finalmente cambiamos los mililitros a litros.
+
+$$
+\begin{align}
+1\,{\rm m}^3 = 1\bigg( 100\,{\rm cm} \bigg)^3 = 1\times 10^6 \,{\rm cm}^3
+\end{align}
+$$
+
+$$
+\begin{align}
+1\times 10^6 \,{\rm cm}^3 = 1 \times 10^6 \,{\rm mL} = 1\times 10^6\bigg(  1\times 10^{-3} L \bigg) = 1\times 10^{3}\,{\rm L}
+\end{align}
+$$
+
+$$
+\begin{align}
+1\,{\rm L} = 1000\,{\rm ml} = 1000\,{\rm cm^3} = 1000\bigg( \frac{1}{100}\,{\rm m} \bigg)^3 &= 1000\bigg( \frac{1}{1000000}\,{\rm m}^3 \bigg)\\
+&= \frac{1000}{1000000}\,{\rm m}^3 \\
+&= \frac{1\cancel{000}}{1000\cancel{000}}\,{\rm m}^3 \\
+&= \frac{1}{1000}\,{\rm m}^3\\
+&= 1\times 10^{-3}\,{\rm m}
+\end{align}
+$$
 :::
 
 ## Colab

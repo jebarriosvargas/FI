@@ -5,14 +5,20 @@ project:
 book:
   title: "FI"
   author: "JEBV"
-  date: "8/11/2023"
+  date: "8/21/2023"
   chapters:
     - index.qmd
     - part: "U1. Elementos básicos"
       chapters:
         - 1_1_magnitudesfisicas.qmd
         - 1_2_conversionunidades.qmd
+        - 1_3_dimensiones.qmd
+        - 1_4_ejerciciosdimensiones.qmd
+        - 1_5_teoremaPI.qmd
+        - 1_6_graficasdefunciones.qmd
     - part: "U2. Movimiento en una dimensión"
+      chapters: 
+        - 2_1_intromovimiento.qmd
     - part: "U3. Vectores y movimiento en más de una dimensión"
     - part: "U4. Las leyes de movimiento"
     - part: "U5. Energía"

@@ -1,0 +1,18 @@
+# Teorema $\Pi$ de Buckingham
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Teorema $\Pi$ de Buckingham
+Si hay una ecuación física significativa que involucre $n$ variables físicas, entonces la ecuación original puede escribirse en términos de un conjunto de $p=n-k$ parámetros adimensionales,
+
+$$
+\Pi_1, \Pi_2,\ldots,\Pi_p
+$$
+
+donde $k$ es el número de dimensiones físicas involucradas
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Ejemplo: Tiempo de caída de un objeto
+¿Cuál es la relación entre el tiempo que cae un objeto (en la superficie de la tierra) y la altura?
+
+:::

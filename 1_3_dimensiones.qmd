@@ -1,0 +1,12 @@
+# Dimensiones y unidades
+
+Las ecuaciones establecen una igualdad entre cantidades físicas de tal forma que del lado derecho y el izquierdo de la igualdad se tengan las mismas unidades (*manzanas igual a manzanas*).
+
+
+
+
+Los argumentos de las funciones trascendentes no tienen dimensiones (o equivalentemente, unidades). Ejemplos de funciones trascendetes,
+
+$$
+f(x) = \exp x, \quad g(x) = \ln x, \quad h(x)=\sin x
+$$

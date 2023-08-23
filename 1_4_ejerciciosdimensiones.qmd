@@ -1,0 +1,33 @@
+# Ejercicios unidades (dimensiones)
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Ejercicio 1
+¿Qué unidades fundamentales del SI tienen la constante $k$ que hace dimensionalmente correcta la expresión?
+
+$$
+U =\frac{1}{2}k x^2
+$$
+
+:::
+
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Ejercicio 2
+¿Qué unidades fundamentales del SI tienen las constantes $\alpha$ y $\beta$ que hace dimensionalmente correcta la expresión?
+
+$$
+F = \alpha \frac{x}{t^2} + \beta ma
+$$
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="true"}
+## Ejercicio 3
+¿Qué unidades fundamentales del SI tienen las constantes $\alpha$ y $\beta$ que hace dimensionalmente correcta la expresión?
+
+$$
+v = \alpha \frac{t}{m} -\frac{x^2}{\beta}
+$$
+
+:::
+
