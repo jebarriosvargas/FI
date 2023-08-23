@@ -9,3 +9,11 @@ Ingresar al sitio <https://www.geogebra.org/>
 Al dar click en **Start calculator** <https://www.geogebra.org/calculator>
 
 ![Geogebra.](img/inicioCalculator.png){fig-align="left" width=400}
+
+Seleccionar la opción de **f(x)** en el teclado mostrado en la pantalla.
+
+![Geogebra.](img/Geogebrafx.png){fig-align="left" width=400}
+
+Por ejemplo, grafiquemos la función $f(x)=\exp x$. Seleccionamos el botón $e^\square$ y escribimos $x$, inmediatamente me mostrará la función.
+
+![Geogebra.](img/Geogebraexp.png){fig-align="left" width=400}
