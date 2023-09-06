@@ -20,7 +20,7 @@ a. ¿Cuánto dura aproximadamente un clavado?
 
 b. ¿Qué tan rápido llega la clavadista al impactar en el río?
 
-{{< video https://www.youtube.com/live/onKNHBc852o?si=69jBnrYj8HtshAvu >}}
+{{< video https://www.youtube.com/embed/onKNHBc852o?si=rAmA83XjlNO7iZu1 >}}
 :::
 
 
