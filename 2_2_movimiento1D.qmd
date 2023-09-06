@@ -105,7 +105,8 @@ $$
 \begin{align}
 a_x &= {\rm constante} \\
 v_x\iprn t_\ff \fprn  &= v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) \\
-x\iprn t_\ff \fprn  &= x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x \big( t_\ff - t_\ii \big)
+x\iprn t_\ff \fprn  &= x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x \big( t_\ff - t_\ii \big)\\
+v_x^2\iprn t_\ff \fprn &= v_x^2\iprn t_\ii \fprn + 2a_x\big(  x\iprn t_\ff \fprn - x\iprn t_\ii \fprn \big)
 \end{align}
 $$ {#eq-1d-aceleracion-constante}
 

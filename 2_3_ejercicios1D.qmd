@@ -10,15 +10,17 @@ b. Si el jet toca al protaviones en la posición $x_i=0\,{\rm m}$ ¿cuál es la 
 
 :::
 
+
+
 ::: {.callout-tip appearance="simple" icon=false collapse="false"}
 ## Clavados de altura
-En mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de $20\,{\rm}$.
+En el mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de $20\,{\rm m}$.
 
 a. ¿Cuánto dura aproximadamente un clavado?
 
 b. ¿Qué tan rápido llega la clavadista al impactar en el río?
 
-{{< video https://www.youtube.com/live/onKNHBc852o?si=64b-is3zFO3B_GJW}}
+{{< video https://www.youtube.com/live/onKNHBc852o?si=69jBnrYj8HtshAvu >}}
 :::
 
 
