@@ -1,0 +1,121 @@
+# Movimiento en una dimensión
+
+$$
+\definecolor{magenta}{RGB}{255,0,144}
+\newcommand{\cparentesis}[1]{ {\color{magenta} #1} }
+\newcommand{\iprn}{\cparentesis{(}}
+\newcommand{\fprn}{\cparentesis{)}}
+\newcommand{\ii}{{\rm i}}
+\newcommand{\ff}{{\rm f}}
+$$
+
+El **objetivo** es determinar la posición de un objeto (partícula) en cada tiempo. Es decir,
+$$
+x\iprn t \fprn
+$$
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Antes de comenzar
+Arbitrariamente nosotros podemos elegir cuándo inicia el tiempo, el origen de la posición y la orientación del sistema coordenado a utilizar (*hacia donde están los positivos*).
+:::
+
+## Cantidades físicas asociadas al movimiento
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Desplazamiento ($\Delta x$)
+El desplazamiento es el cambio de la posición de un tiempo inicial, $t_\ii$, a un tiempo final, $t_\ff$
+$$
+\Delta x_{t_\ii\to t_\ff} = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn 
+$$
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Velocidad promedio ($v_{x,{\rm prom}}$)
+La velocidad promedio es el cociente del desplazamiento y el intervalo de tiempo asociado al desplazamiento.
+$$
+v_{x,{\rm prom},t_\ii\to t_\ff} = \frac{\Delta x_{t_\ii\to t_\ff}}{\Delta t_{t_\ii\to t_\ff}} = \frac{x\iprn t_\ff \fprn - x\iprn t_\ii \fprn}{t_\ff - t_\ii}
+$$
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Velocidad (instantánea) ($v_{x}$)
+La velocidad (instantánea) es el límite de la velociadad promedio cuando el intervalo de tiempo tiende a cero.
+$$
+v_{x}\iprn t \fprn = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{d}{dt} x\iprn t\fprn
+$$
+que es igual a la derivada de la posición respecto del tiempo.
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Rapidez ($|v_{x}|$)
+La rapidez es la magnitud (o valor absoluto) de la velocidad
+$$
+{\rm rapidez}\iprn t\fprn = |v_{x} \iprn t\fprn|
+$$
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="false"}
+## Aceleración ($a_{x}$)
+La aceleración es la derivada de la velocidad respecto del tiempo,
+$$
+a_{x}\iprn t \fprn = \frac{d}{dt} v_x\iprn t\fprn = \frac{d}{dt} \bigg(  \frac{d}{dt} x\iprn t\fprn \bigg) = \frac{d^2}{dt^2} x\iprn t\fprn
+$$
+que es igual a la segunda derivada de la posición respecto del tiempo.
+:::
+
+
+## Moviminto con velocidad constante
+
+$$
+x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x \big( t_\ff - t_\ii \big)
+$$ {#eq-1d-velocidad-constante}
+
+::: {.column-margin}
+::: {.justify}
+Teorema fundamental del cálculo. Sea la derivada de $f$ una función de variable real continua en el intervalo $[a,b]$, entonces
+:::
+$$
+\int_a^b \bigg( \frac{d}{dt} f \bigg) dt = f(b) -f(a)
+$$ 
+:::
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Deducción de @eq-1d-velocidad-constante
+De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
+$$
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
+$$
+En el caso de que la velocidad es constante, $v_x={\rm cte.}$, es decir tiene el mismo valor en todo tiempo, podemos realizar la integral de la velocidad
+$$
+\int_{t_\ii}^{t_\ff} v_x\, dt = v_x \int_{t_\ii}^{t_\ff} \, dt = v_x ( t_\ff - t_\ii ) 
+$$
+Igualando ambas expresiones tenemos que,
+$$
+x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x ( t_\ff - t_\ii )  
+$$
+Entonces,
+$$
+x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x ( t_\ff - t_\ii )  
+$$
+:::
+
+## Movimiento con aceleración constante
+
+$$
+\begin{align}
+a_x &= {\rm constante} \\
+v_x\iprn t_\ff \fprn  &= v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) \\
+x\iprn t_\ff \fprn  &= x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x \big( t_\ff - t_\ii \big)
+\end{align}
+$$ {#eq-1d-aceleracion-constante}
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Deducción de @eq-1d-aceleracion-constante
+De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
+$$
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+$$
+
+...
+:::
+

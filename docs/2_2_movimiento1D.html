@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FI - 6&nbsp; Graficación de funciones de una variable real</title>
+<title>FI - 8&nbsp; Movimiento en una dimensión</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./2_1_intromovimiento.html" rel="next">
-<link href="./1_5_teoremaPI.html" rel="prev">
+<link href="./2_3_ejercicios1D.html" rel="next">
+<link href="./2_1_intromovimiento.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./1_1_magnitudesfisicas.html">U1. Elementos básicos</a></li><li class="breadcrumb-item"><a href="./1_6_graficasdefunciones.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Graficación de funciones de una variable real</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2_1_intromovimiento.html">U2. Movimiento en una dimensión</a></li><li class="breadcrumb-item"><a href="./2_2_movimiento1D.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Movimiento en una dimensión</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1_6_graficasdefunciones.html" class="sidebar-item-text sidebar-link active">
+  <a href="./1_6_graficasdefunciones.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Graficación de funciones de una variable real</span></span></a>
   </div>
 </li>
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2_2_movimiento1D.html" class="sidebar-item-text sidebar-link">
+  <a href="./2_2_movimiento1D.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Movimiento en una dimensión</span></span></a>
   </div>
 </li>
@@ -245,16 +245,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contenido</h2>
    
   <ul>
-  <li><a href="#geogebra" id="toc-geogebra" class="nav-link active" data-scroll-target="#geogebra"><span class="header-section-number">6.1</span> Geogebra</a></li>
+  <li><a href="#cantidades-físicas-asociadas-al-movimiento" id="toc-cantidades-físicas-asociadas-al-movimiento" class="nav-link active" data-scroll-target="#cantidades-físicas-asociadas-al-movimiento"><span class="header-section-number">8.1</span> Cantidades físicas asociadas al movimiento</a></li>
+  <li><a href="#moviminto-con-velocidad-constante" id="toc-moviminto-con-velocidad-constante" class="nav-link" data-scroll-target="#moviminto-con-velocidad-constante"><span class="header-section-number">8.2</span> Moviminto con velocidad constante</a></li>
+  <li><a href="#movimiento-con-aceleración-constante" id="toc-movimiento-con-aceleración-constante" class="nav-link" data-scroll-target="#movimiento-con-aceleración-constante"><span class="header-section-number">8.3</span> Movimiento con aceleración constante</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Graficación de funciones de una variable real</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Movimiento en una dimensión</span></h1>
 </div>
 
 
@@ -269,35 +271,191 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="geogebra" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="geogebra"><span class="header-section-number">6.1</span> Geogebra</h2>
-<p>Ingresar al sitio <a href="https://www.geogebra.org/" class="uri">https://www.geogebra.org/</a></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="img/inicioGeogebra.png" class="img-fluid figure-img" width="400"></p>
-<figcaption class="figure-caption">Página inicial Geogebra.</figcaption>
-</figure>
+<p><span class="math display">\[
+\definecolor{magenta}{RGB}{255,0,144}
+\newcommand{\cparentesis}[1]{ {\color{magenta} #1} }
+\newcommand{\iprn}{\cparentesis{(}}
+\newcommand{\fprn}{\cparentesis{)}}
+\newcommand{\ii}{{\rm i}}
+\newcommand{\ff}{{\rm f}}
+\]</span></p>
+<p>El <strong>objetivo</strong> es determinar la posición de un objeto (partícula) en cada tiempo. Es decir, <span class="math display">\[
+x\iprn t \fprn
+\]</span></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<p>Al dar click en <strong>Start calculator</strong> <a href="https://www.geogebra.org/calculator" class="uri">https://www.geogebra.org/calculator</a></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="img/inicioCalculator.png" class="img-fluid figure-img" width="400"></p>
-<figcaption class="figure-caption">Geogebra.</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Antes de comenzar
 </div>
-<p>Seleccionar la opción de <strong>f(x)</strong> en el teclado mostrado en la pantalla.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="img/Geogebrafx.png" class="img-fluid figure-img" width="400"></p>
-<figcaption class="figure-caption">Geogebra.</figcaption>
-</figure>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<p>Por ejemplo, grafiquemos la función <span class="math inline">\(f(x)=\exp x\)</span>. Seleccionamos el botón <span class="math inline">\(e^\square\)</span> y escribimos <span class="math inline">\(x\)</span>, inmediatamente me mostrará la función.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="img/Geogebraexp.png" class="img-fluid figure-img" width="400"></p>
-<figcaption class="figure-caption">Geogebra.</figcaption>
-</figure>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Arbitrariamente nosotros podemos elegir cuándo inicia el tiempo, el origen de la posición y la orientación del sistema coordenado a utilizar (<em>hacia donde están los positivos</em>).</p>
+</div>
+</div>
+</div>
+<section id="cantidades-físicas-asociadas-al-movimiento" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="cantidades-físicas-asociadas-al-movimiento"><span class="header-section-number">8.1</span> Cantidades físicas asociadas al movimiento</h2>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desplazamiento (<span class="math inline">\(\Delta x\)</span>)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El desplazamiento es el cambio de la posición de un tiempo inicial, <span class="math inline">\(t_\ii\)</span>, a un tiempo final, <span class="math inline">\(t_\ff\)</span> <span class="math display">\[
+\Delta x_{t_\ii\to t_\ff} = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
+\]</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Velocidad promedio (<span class="math inline">\(v_{x,{\rm prom}}\)</span>)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>La velocidad promedio es el cociente del desplazamiento y el intervalo de tiempo asociado al desplazamiento. <span class="math display">\[
+v_{x,{\rm prom},t_\ii\to t_\ff} = \frac{\Delta x_{t_\ii\to t_\ff}}{\Delta t_{t_\ii\to t_\ff}} = \frac{x\iprn t_\ff \fprn - x\iprn t_\ii \fprn}{t_\ff - t_\ii}
+\]</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Velocidad (instantánea) (<span class="math inline">\(v_{x}\)</span>)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>La velocidad (instantánea) es el límite de la velociadad promedio cuando el intervalo de tiempo tiende a cero. <span class="math display">\[
+v_{x}\iprn t \fprn = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{d}{dt} x\iprn t\fprn
+\]</span> que es igual a la derivada de la posición respecto del tiempo.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Rapidez (<span class="math inline">\(|v_{x}|\)</span>)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>La rapidez es la magnitud (o valor absoluto) de la velocidad <span class="math display">\[
+{\rm rapidez}\iprn t\fprn = |v_{x} \iprn t\fprn|
+\]</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aceleración (<span class="math inline">\(a_{x}\)</span>)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>La aceleración es la derivada de la velocidad respecto del tiempo, <span class="math display">\[
+a_{x}\iprn t \fprn = \frac{d}{dt} v_x\iprn t\fprn = \frac{d}{dt} \bigg(  \frac{d}{dt} x\iprn t\fprn \bigg) = \frac{d^2}{dt^2} x\iprn t\fprn
+\]</span> que es igual a la segunda derivada de la posición respecto del tiempo.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="moviminto-con-velocidad-constante" class="level2 page-columns page-full" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="moviminto-con-velocidad-constante"><span class="header-section-number">8.2</span> Moviminto con velocidad constante</h2>
+<p><span id="eq-1d-velocidad-constante"><span class="math display">\[
+x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x \big( t_\ff - t_\ii \big)
+\tag{8.1}\]</span></span></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="justify">
+<p>Teorema fundamental del cálculo. Sea la derivada de <span class="math inline">\(f\)</span> una función de variable real continua en el intervalo <span class="math inline">\([a,b]\)</span>, entonces</p>
+</div>
+<p><span class="math display">\[
+\int_a^b \bigg( \frac{d}{dt} f \bigg) dt = f(b) -f(a)
+\]</span></p>
+</div></div><div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deducción de <a href="#eq-1d-velocidad-constante">Equation&nbsp;<span>8.1</span></a>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
+\]</span> En el caso de que la velocidad es constante, <span class="math inline">\(v_x={\rm cte.}\)</span>, es decir tiene el mismo valor en todo tiempo, podemos realizar la integral de la velocidad <span class="math display">\[
+\int_{t_\ii}^{t_\ff} v_x\, dt = v_x \int_{t_\ii}^{t_\ff} \, dt = v_x ( t_\ff - t_\ii )
+\]</span> Igualando ambas expresiones tenemos que, <span class="math display">\[
+x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x ( t_\ff - t_\ii )  
+\]</span> Entonces, <span class="math display">\[
+x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x ( t_\ff - t_\ii )  
+\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="movimiento-con-aceleración-constante" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="movimiento-con-aceleración-constante"><span class="header-section-number">8.3</span> Movimiento con aceleración constante</h2>
+<p><span id="eq-1d-aceleracion-constante"><span class="math display">\[
+\begin{align}
+a_x &amp;= {\rm constante} \\
+v_x\iprn t_\ff \fprn  &amp;= v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) \\
+x\iprn t_\ff \fprn  &amp;= x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x \big( t_\ff - t_\ii \big)
+\end{align}
+\tag{8.2}\]</span></span></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deducción de <a href="#eq-1d-aceleracion-constante">Equation&nbsp;<span>8.2</span></a>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+\]</span></p>
+<p>…</p>
+</div>
+</div>
 </div>
 
 
@@ -654,13 +812,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./1_5_teoremaPI.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Teorema <span class="math inline">\(\Pi\)</span> de Buckingham</span></span>
+      <a href="./2_1_intromovimiento.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Movimiento (introducción)</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./2_1_intromovimiento.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Movimiento (introducción)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./2_3_ejercicios1D.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Ejercicios de movimiento en una dimensión</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

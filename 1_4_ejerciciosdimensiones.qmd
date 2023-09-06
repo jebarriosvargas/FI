@@ -1,6 +1,6 @@
 # Ejercicios unidades (dimensiones)
 
-::: {.callout-tip appearance="simple" icon=false collapse="true"}
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
 ## Ejercicio 1
 ¿Qué unidades fundamentales del SI tienen la constante $k$ que hace dimensionalmente correcta la expresión?
 
@@ -11,7 +11,7 @@ $$
 :::
 
 
-::: {.callout-tip appearance="simple" icon=false collapse="true"}
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
 ## Ejercicio 2
 ¿Qué unidades fundamentales del SI tienen las constantes $\alpha$ y $\beta$ que hace dimensionalmente correcta la expresión?
 
@@ -21,7 +21,7 @@ $$
 
 :::
 
-::: {.callout-tip appearance="simple" icon=false collapse="true"}
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
 ## Ejercicio 3
 ¿Qué unidades fundamentales del SI tienen las constantes $\alpha$ y $\beta$ que hace dimensionalmente correcta la expresión?
 

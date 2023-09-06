@@ -19,6 +19,8 @@ book:
     - part: "U2. Movimiento en una dimensión"
       chapters: 
         - 2_1_intromovimiento.qmd
+        - 2_2_movimiento1D.qmd
+        - 2_3_ejercicios1D.qmd
     - part: "U3. Vectores y movimiento en más de una dimensión"
     - part: "U4. Las leyes de movimiento"
     - part: "U5. Energía"

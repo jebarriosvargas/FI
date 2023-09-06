@@ -1,3 +1,5 @@
 # Prefacio {.unnumbered}
 
 Anotaciones del curso de Física I (clave: 1113) de la Facultad de Química, UNAM; las cuales fueron generadas utilizando Quarto books <https://quarto.org/docs/books>.
+
+> La Física tiene como objetivo describir la naturaleza mediante un lenguaje matemático expresado en ecuaciones. Las ecuaciones, más que algoritmos de resolución, plantean las relaciones que existen entre las diferentes variables presentes en el fenómeno que se describe. Las ecuaciones son guías de conocimiento que demuestran la conexión entre los conceptos.

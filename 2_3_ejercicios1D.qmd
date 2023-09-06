@@ -1,0 +1,38 @@
+# Ejercicios de movimiento en una dimensión
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Aterrizaje en portaviones
+Un jet aterriza en un portaviones a $140 \,{\rm mi/h}$ ($\approx 63\,{\rm m/s}$).
+
+a. ¿Cuál es su aceleración (constante) si se detiene en $2.0\,{\rm s}$ debido a un cable de arresto que traba al jet y lo deja en reposo.
+
+b. Si el jet toca al protaviones en la posición $x_i=0\,{\rm m}$ ¿cuál es la posición final?
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Clavados de altura
+En mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de $20\,{\rm}$.
+
+a. ¿Cuánto dura aproximadamente un clavado?
+
+b. ¿Qué tan rápido llega la clavadista al impactar en el río?
+
+{{< video https://www.youtube.com/live/onKNHBc852o?si=64b-is3zFO3B_GJW}}
+:::
+
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Observe el límite de rapidez.
+Usted está conduciendo un automóvil que viaja con una velocidad constante de $45.0\,{\rm m/s}$ pasa por donde está un patrullero en motocicleta oculto de trás de un anuncio espectacular. Un segundo después de que el automóvil pasa el anuncio, el patrullero sale de su escondite para detener al automóvil, que acelera con una razón constante de $3.0\,{\rm m/s^2}$, ¿cuánto tiempo tarda en dar alcance al automóvil?
+
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Doble de acción
+Un doble de acción sentado en una rama de un árbol desea caer de forma vertical sobre un caballo que pasará galopando bajo el árbol. La rapidez constante del caballo es de $10.0\,{\rm m/s}$ y el doble al inicio se encuentra a $3.0\,{\rm m}$ arriba del nivel de la silla.
+
+a. ¿Cuál debe ser la distancia horizontal entre la silla y la rama cuando el doble hace su acrobacia?
+
+b. ¿Cuánto tiempo está en el aire?
+:::

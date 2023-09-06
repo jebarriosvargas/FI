@@ -8,3 +8,6 @@ Physics is not just concerning the nature of things, but concerning the intercon
 La Física, como todas las ciencias, depende de las observaciones. Sólo con observaciones cunatitativas es posible llegar a relaciones cuantitativas que son el corazón de la física.
 
 Chemical brothers - Star Guitar <https://youtu.be/0S43IwBF0uM>
+
+Nuestro **objetivo** será describir el movimiento de los objetos. En primera instancia consideraremos un objeto como una **partícula**, es decir un punto con masa. Describiremos su movimiento dando la posición de dicha partícula como función del tiempo. 
+
