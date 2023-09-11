@@ -1,18 +1,6 @@
 # Ejercicios de movimiento en una dimensión
 
 ::: {.callout-tip appearance="simple" icon=false collapse="false"}
-## Aterrizaje en portaviones
-Un jet aterriza en un portaviones a $140 \,{\rm mi/h}$ ($\approx 63\,{\rm m/s}$).
-
-a. ¿Cuál es su aceleración (constante) si se detiene en $2.0\,{\rm s}$ debido a un cable de arresto que traba al jet y lo deja en reposo.
-
-b. Si el jet toca al protaviones en la posición $x_i=0\,{\rm m}$ ¿cuál es la posición final?
-
-:::
-
-
-
-::: {.callout-tip appearance="simple" icon=false collapse="false"}
 ## Clavados de altura
 En el mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de $20\,{\rm m}$.
 
@@ -21,6 +9,16 @@ a. ¿Cuánto dura aproximadamente un clavado?
 b. ¿Qué tan rápido llega la clavadista al impactar en el río?
 
 {{< video https://www.youtube.com/embed/onKNHBc852o?si=rAmA83XjlNO7iZu1 >}}
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Aterrizaje en portaviones
+Un jet aterriza en un portaviones a $140 \,{\rm mi/h}$ ($\approx 63\,{\rm m/s}$).
+
+a. ¿Cuál es su aceleración (constante) si se detiene en $2.0\,{\rm s}$ debido a un cable de arresto que traba al jet y lo deja en reposo.
+
+b. Si el jet toca al protaviones en la posición $x_i=0\,{\rm m}$ ¿cuál es la posición final?
+
 :::
 
 
