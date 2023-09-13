@@ -180,5 +180,54 @@
     "title": "9  Ejercicios de movimiento en una dimensión",
     "section": "",
     "text": "Clavados de altura\n\n\n\n\n\nEn el mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de \\(20\\,{\\rm m}\\).\n\n¿Cuánto dura aproximadamente un clavado?\n¿Qué tan rápido llega la clavadista al impactar en el río?\n\n\n\n\n\n\n\n\n\n\n\nAterrizaje en portaviones\n\n\n\n\n\nUn jet aterriza en un portaviones a \\(140 \\,{\\rm mi/h}\\) (\\(\\approx 63\\,{\\rm m/s}\\)).\n\n¿Cuál es su aceleración (constante) si se detiene en \\(2.0\\,{\\rm s}\\) debido a un cable de arresto que traba al jet y lo deja en reposo.\nSi el jet toca al protaviones en la posición \\(x_i=0\\,{\\rm m}\\) ¿cuál es la posición final?\n\n\n\n\n\n\n\n\n\n\nObserve el límite de rapidez.\n\n\n\n\n\nUsted está conduciendo un automóvil que viaja con una velocidad constante de \\(45.0\\,{\\rm m/s}\\) pasa por donde está un patrullero en motocicleta oculto de trás de un anuncio espectacular. Un segundo después de que el automóvil pasa el anuncio, el patrullero sale de su escondite para detener al automóvil, que acelera con una razón constante de \\(3.0\\,{\\rm m/s^2}\\), ¿cuánto tiempo tarda en dar alcance al automóvil?\n\n\n\n\n\n\n\n\n\nDoble de acción\n\n\n\n\n\nUn doble de acción sentado en una rama de un árbol desea caer de forma vertical sobre un caballo que pasará galopando bajo el árbol. La rapidez constante del caballo es de \\(10.0\\,{\\rm m/s}\\) y el doble al inicio se encuentra a \\(3.0\\,{\\rm m}\\) arriba del nivel de la silla.\n\n¿Cuál debe ser la distancia horizontal entre la silla y la rama cuando el doble hace su acrobacia?\n¿Cuánto tiempo está en el aire?"
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#derivada-de-una-función",
+    "href": "A_math_derivadasintegrales.html#derivada-de-una-función",
+    "title": "10  Mathematica",
+    "section": "10.1 Derivada de una función",
+    "text": "10.1 Derivada de una función\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica.\n\n\nLa interacción con Mathematica es a través de celdas. Si en la celda tecleamos = nos permite dar instrucciones que interpreta el servicio de Wolfram Alpha.\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica.\n\n\nCon el fin de tener los símbolos matemáticos a la mano es posible abrir una ventana con ellos seleccionando en el menu\n\nPalettes &gt; Basic Math Assistant\n\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica.\n\n\nDefinimos funciones utilizando f[x_] :=, por ejemplo\n\nf[x_] := 1 + 2 x\n\nAhora es posible evaluar dicha función en algún valor encerrado entre corchetes\n\nf[2]\n\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica.\n\n\nAhora calculemos la derivada de la función que definimos. Tenemos dos opciones, utilizando el comando D[ ]\n\nD[f[x],x]\n\ny utilizando una prima\n\nf’[x]\n\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica."
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#integrales",
+    "href": "A_math_derivadasintegrales.html#integrales",
+    "title": "10  Mathematica",
+    "section": "10.2 Integrales",
+    "text": "10.2 Integrales\nAhora integremos la función con el comando Integrate[ ]\n\nIntegrate[f[x],x]\n\nTambién podemos integrar con el símbolo de la integral \\(\\int\\) el cual podemos escribir tecleando Esc-intt-Esc\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica.\n\n\nSi queremos una integral definida tenemos la opción de escribir Esc-dintt-Esc y escribir los límites de integración, o utilizando el comando NIntegrate\n\nNIntegrate[f[x], {x, 0, 2}]\n\n\n\n\nVentana de un cuaderno de trabajo de Mathemathica."
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#derivadas-e-integrales-de-funciones-de-varias-variables",
+    "href": "A_math_derivadasintegrales.html#derivadas-e-integrales-de-funciones-de-varias-variables",
+    "title": "10  Mathematica",
+    "section": "10.3 Derivadas e integrales de funciones de varias variables",
+    "text": "10.3 Derivadas e integrales de funciones de varias variables\n\\[\n\\frac{\\partial }{\\partial y}\\bigg( \\frac{\\partial }{\\partial z} \\bigg( x^3z+2 y^2 x + y z^3 \\bigg)\\bigg)\n\\]\n\nD[x^3 z + 2 y^2 x + y z^3, y, z]\n\nVer https://www.wolfram.com/language/fast-introduction-for-math-students/es/multivariate-calculus/"
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#operaciones-de-vectores-gradientes-y-divergencia",
+    "href": "A_math_derivadasintegrales.html#operaciones-de-vectores-gradientes-y-divergencia",
+    "title": "10  Mathematica",
+    "section": "10.4 Operaciones de vectores, gradientes y divergencia",
+    "text": "10.4 Operaciones de vectores, gradientes y divergencia\nVer https://www.wolfram.com/language/fast-introduction-for-math-students/es/vector-analysis-and-visualization/"
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#matrices-y-algebra-lineal",
+    "href": "A_math_derivadasintegrales.html#matrices-y-algebra-lineal",
+    "title": "10  Mathematica",
+    "section": "10.5 Matrices y algebra lineal",
+    "text": "10.5 Matrices y algebra lineal\nhttps://www.wolfram.com/language/fast-introduction-for-math-students/es/matrices-and-linear-algebra/"
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#resolución-de-ejercicios",
+    "href": "A_math_derivadasintegrales.html#resolución-de-ejercicios",
+    "title": "10  Mathematica",
+    "section": "10.3 Resolución de ejercicios",
+    "text": "10.3 Resolución de ejercicios\n\n\n\n\n\n\nEjercicio 5\n\n\n\n\n\nConsidera la siguiente función para la posición, \\(x(t) = \\big(0.5 \\,{\\rm m/s^3} \\big)\\,t^3 + \\big( 2\\,{\\rm m/s} \\big)\\,t - 5\\,{\\rm m}\\).\n\nGrafica la posición como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\), recuerda colocar las etiquetas y unidades en la gráfica.\nGrafica la velocidad como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\).\nGrafica la aceleración como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\).\n¿Cuál es el valor de la velocidad en \\(t=2\\,{\\rm s}\\)?\n¿Cuál es el valor de la aceleración en \\(t=2\\,{\\rm s}\\)?\n\n\n\n\n\n\n\n\n\n\nEjercicio 6\n\n\n\n\n\nConsidera la siguiente función para la posición, \\(x(t) = (-2\\,{\\rm m})\\,\\cos \\big( (2\\pi\\,{\\rm s}^{-1})\\,t \\big)\\).\n\nGrafica la posición como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\), recuerda colocar las etiquetas y unidades en la gráfica.\nGrafica la velocidad como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\).\nGrafica la aceleración como función del tiempo en el intervalo de \\(t\\in [0\\,{\\rm s},3\\,{\\rm s}]\\).\n¿Cuál es el valor de la velocidad en \\(t=2\\,{\\rm s}\\)?\n¿Cuál es el valor de la aceleración en \\(t=2\\,{\\rm s}\\)?\n\n\n\n\n\n\n\n\n\n\nEl gato que deriva\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 10\n\n\n\n\n\nUn auto viaja por un camino horizontal rectilíneo con velocidad constante. El auto pasa junto a un motociclista en el momento en que éste acelera su motocicleta partiendo del reposo. La gráfica muestra la velocidad de cada uno como función del tiempo. Determina la posición donde se alcanzan. Considere el origen en la posición donde parte del reposo la motocicleta.\n\n\n\nGráfica de velocidad como función del tiempo"
+  },
+  {
+    "objectID": "A_math_derivadasintegrales.html#moléculas",
+    "href": "A_math_derivadasintegrales.html#moléculas",
+    "title": "10  Mathematica",
+    "section": "10.4 Moléculas",
+    "text": "10.4 Moléculas\n\nMolecule[“caffeine”]\n\n\nMoleculePlot[ Molecule[“caffeine”] ]\n\n\nMoleculePlot3D[ Molecule[“caffeine”] ]"
   }
 ]

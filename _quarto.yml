@@ -28,8 +28,8 @@ book:
     - part: "U7. Movimiento rotacional"
     - part: "U8. Equilibrio rotacional y dinámica rotacional"
     - part: "Apéndice. Mathematica by Wolfram."
-    - intro.qmd
-    - summary.qmd
+      chapters:
+        - A_math_derivadasintegrales.qmd
     - references.qmd
 
 bibliography: references.bib

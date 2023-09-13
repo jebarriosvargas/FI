@@ -1,0 +1,111 @@
+# Mathematica
+
+Recomendación, leer <https://www.wolfram.com/language/fast-introduction-for-math-students/es/>.
+
+## Derivada de una función
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/NotebookMathematica.png){fig-align="left" width=400}
+
+La interacción con Mathematica es a través de celdas. Si en la celda tecleamos {{< kbd "=" >}} nos permite dar instrucciones que interpreta el servicio de Wolfram Alpha.
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/WolframAlphaMathematica.png){fig-align="left" width=400}
+
+Con el fin de tener los símbolos matemáticos a la mano es posible abrir una ventana con ellos seleccionando en el menu
+
+> Palettes > Basic Math Assistant
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/BasicMathAssistant.png){fig-align="left" width=250}
+
+Definimos funciones utilizando **f[x_] :=**, por ejemplo
+
+> f[x_] := 1 + 2 x
+
+Ahora es posible evaluar dicha función en algún valor encerrado entre corchetes
+
+> f[2]
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/funcionevaluadaenvalor.png){fig-align="left" width=400}
+
+Ahora calculemos la derivada de la función que definimos. Tenemos dos opciones, utilizando el comando **D[ ]**
+
+> D[f[x],x]
+
+y utilizando una prima
+
+> f'[x]
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/Derivada.png){fig-align="left" width=400}
+
+## Integrales
+
+Ahora integremos la función con el comando **Integrate[ ]**
+
+> Integrate[f[x],x]
+
+También podemos integrar con el símbolo de la integral $\int$ el cual podemos escribir tecleando {{< kbd Esc-intt-Esc >}}
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/IntegralIndefinida.png){fig-align="left" width=400}
+
+Si queremos una integral definida tenemos la opción de escribir {{< kbd Esc-dintt-Esc >}} y escribir los límites de integración, o utilizando el comando NIntegrate
+
+> NIntegrate[f[x], {x, 0, 2}]
+
+![Ventana de un cuaderno de trabajo de Mathemathica.](img/IntegralDefinida.png){fig-align="left" width=400}
+
+## Resolución de ejercicios
+
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Ejercicio 5
+Considera la siguiente función para la posición, $x(t) = \big(0.5 \,{\rm m/s^3} \big)\,t^3 + \big( 2\,{\rm m/s} \big)\,t - 5\,{\rm m}$. 
+
+(a) Grafica la posición como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$, recuerda colocar las etiquetas y unidades en la gráfica. 
+
+(b) Grafica la velocidad como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$. 
+
+(c) Grafica la aceleración como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$. 
+
+(d) ¿Cuál es el valor de la velocidad en $t=2\,{\rm s}$? 
+
+(e) ¿Cuál es el valor de la aceleración en $t=2\,{\rm s}$? 
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Ejercicio 6
+Considera la siguiente función para la posición, $x(t) = (-2\,{\rm m})\,\cos \big( (2\pi\,{\rm s}^{-1})\,t \big)$. 
+
+(a) Grafica la posición como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$, recuerda colocar las etiquetas y unidades en la gráfica. 
+
+(b) Grafica la velocidad como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$. 
+
+(c) Grafica la aceleración como función del tiempo en el intervalo de $t\in [0\,{\rm s},3\,{\rm s}]$. 
+
+(d) ¿Cuál es el valor de la velocidad en $t=2\,{\rm s}$? 
+
+(e) ¿Cuál es el valor de la aceleración en $t=2\,{\rm s}$? 
+:::
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## El gato que deriva
+{{< video https://youtu.be/BlOzIccOGmQ?si=Dob1xxtEO9AMPLwi >}}
+
+:::
+
+
+::: {.callout-tip appearance="simple" icon=false collapse="false"}
+## Ejercicio 10
+Un auto viaja por un camino horizontal rectilíneo con velocidad constante. El auto pasa junto a un motociclista en el momento en que éste acelera su motocicleta partiendo del reposo. La gráfica muestra la velocidad de cada uno como función del tiempo. Determina la posición donde se alcanzan. Considere el origen en la posición donde parte del reposo la motocicleta.
+
+![Gráfica de velocidad como función del tiempo](img/FigMovRel.png){width=300}
+
+
+:::
+
+
+## Moléculas
+
+> Molecule["caffeine"]
+
+> MoleculePlot[ Molecule["caffeine"] ]
+
+> MoleculePlot3D[ Molecule["caffeine"] ]
