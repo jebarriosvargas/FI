@@ -46,13 +46,7 @@ $$
 que es igual a la derivada de la posición respecto del tiempo.
 :::
 
-::: {.callout-note appearance="simple" icon=false collapse="false"}
-## Rapidez ($|v_{x}|$)
-La rapidez es la magnitud (o valor absoluto) de la velocidad
-$$
-{\rm rapidez}\iprn t\fprn = |v_{x} \iprn t\fprn|
-$$
-:::
+
 
 ::: {.callout-note appearance="simple" icon=false collapse="false"}
 ## Aceleración ($a_{x}$)
@@ -63,12 +57,36 @@ $$
 que es igual a la segunda derivada de la posición respecto del tiempo.
 :::
 
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Rapidez ($|v_{x}|$)
+La rapidez es la magnitud (o valor absoluto) de la velocidad
+$$
+{\rm rapidez}\iprn t\fprn = |v_{x} \iprn t\fprn|
+$$
+:::
 
-## Moviminto con velocidad constante
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Distancia recorrida ($s$)
+La distancia recorrida desde un tiempo inicial, $t_i$, a un tiempo final, $t_f$, es
+$$
+s = \int_{t_i}^{t_f} |v_{x}| dt
+$$
+:::
+
+## Movimiento con aceleración cero (velocidad constante)
+
+$$
+a_x\iprn t_f \fprn = a_x \iprn t_i \fprn = 0\,{\rm m/s^2}
+$$
+
+$$
+v_x \iprn t_f \fprn = v_x \iprn t_i \fprn =\text{constante}
+$$ {#eq-1d-velocidad-constante-vel}
 
 $$
 x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x \big( t_\ff - t_\ii \big)
-$$ {#eq-1d-velocidad-constante}
+$$ {#eq-1d-velocidad-constante-pos}
 
 ::: {.column-margin}
 ::: {.justify}
@@ -79,8 +97,28 @@ $$
 $$ 
 :::
 
+
 ::: {.callout-note appearance="simple" icon=false collapse="true"}
-## Deducción de @eq-1d-velocidad-constante
+## Deducción de @eq-1d-velocidad-constante-vel
+De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
+$$
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+$$
+
+En el caso de que la aceleración es cero, la integral anterior es cero
+$$
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt = 0 \,{\rm m/s} = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+$$
+Entonces, 
+$$
+v_x\iprn t_\ff \fprn = v_x\iprn t_\ii \fprn = \text{constante}\,.
+$$
+
+:::
+
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Deducción de @eq-1d-velocidad-constante-pos
 De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
 $$
 \int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
