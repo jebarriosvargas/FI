@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./2_3_ejercicios1D.html" rel="next">
+<link href="./2_2_1_movimientoacero.html" rel="next">
 <link href="./2_1_intromovimiento.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -104,7 +104,7 @@ window.Quarto = {
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -217,8 +217,26 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./2_2_1_movimientoacero.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Movimiento con aceleración cero (velocidad constante)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_2_2_movimientoacte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Movimiento con aceleración constante</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_2_3_movimientoavar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Movimiento con aceleración dependiente del tiempo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./2_3_ejercicios1D.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Ejercicios de movimiento en una dimensión</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Ejercicios de movimiento en una dimensión</span></span></a>
   </div>
 </li>
       </ul>
@@ -259,7 +277,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./A_math_derivadasintegrales.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Mathematica</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mathematica</span></span></a>
   </div>
 </li>
       </ul>
@@ -281,13 +299,11 @@ window.Quarto = {
    
   <ul>
   <li><a href="#cantidades-físicas-asociadas-al-movimiento" id="toc-cantidades-físicas-asociadas-al-movimiento" class="nav-link active" data-scroll-target="#cantidades-físicas-asociadas-al-movimiento"><span class="header-section-number">8.1</span> Cantidades físicas asociadas al movimiento</a></li>
-  <li><a href="#movimiento-con-aceleración-cero-velocidad-constante" id="toc-movimiento-con-aceleración-cero-velocidad-constante" class="nav-link" data-scroll-target="#movimiento-con-aceleración-cero-velocidad-constante"><span class="header-section-number">8.2</span> Movimiento con aceleración cero (velocidad constante)</a></li>
-  <li><a href="#movimiento-con-aceleración-constante" id="toc-movimiento-con-aceleración-constante" class="nav-link" data-scroll-target="#movimiento-con-aceleración-constante"><span class="header-section-number">8.3</span> Movimiento con aceleración constante</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2_1_intromovimiento.html">U2. Movimiento en una dimensión</a></li><li class="breadcrumb-item"><a href="./2_2_movimiento1D.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Movimiento en una dimensión</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -443,180 +459,6 @@ Distancia recorrida (<span class="math inline">\(s\)</span>)
 s = \int_{t_\ii}^{t_\ff} |v_{x}| dt
 \]</span></p>
 <p>Video explicativo <a href="https://youtu.be/ykwjb-OGimE?si=c8cNM18cpxjsfQMJ&amp;t=510" class="uri">https://youtu.be/ykwjb-OGimE?si=c8cNM18cpxjsfQMJ&amp;t=510</a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="movimiento-con-aceleración-cero-velocidad-constante" class="level2 page-columns page-full" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="movimiento-con-aceleración-cero-velocidad-constante"><span class="header-section-number">8.2</span> Movimiento con aceleración cero (velocidad constante)</h2>
-<p><span class="math display">\[
-a_x\iprn t_\ff \fprn = a_x \iprn t_\ii \fprn = 0\,{\rm m/s^2}
-\]</span></p>
-<p><span id="eq-1d-velocidad-constante-vel"><span class="math display">\[
-v_x \iprn t_\ff \fprn = v_x \iprn t_\ii \fprn =\text{constante}
-\tag{8.1}\]</span></span></p>
-<p><span id="eq-1d-velocidad-constante-pos"><span class="math display">\[
-x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big)
-\tag{8.2}\]</span></span></p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="justify">
-<p>Teorema fundamental del cálculo. Sea la derivada de <span class="math inline">\(f\)</span> una función de variable real continua en el intervalo <span class="math inline">\([a,b]\)</span>, entonces</p>
-</div>
-<p><span class="math display">\[
-\int_a^b \bigg( \frac{d}{dt} f \bigg) dt = f(b) -f(a)
-\]</span></p>
-</div></div><div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-velocidad-constante-vel" class="quarto-xref">Equation&nbsp;<span>8.1</span></a>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
-\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
-\]</span></p>
-<p>En el caso de que la aceleración es cero, la integral anterior es cero <span class="math display">\[
-\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt = 0 \,{\rm m/s} = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
-\]</span> Entonces, <span class="math display">\[
-v_x\iprn t_\ff \fprn = v_x\iprn t_\ii \fprn = \text{constante}\,.
-\]</span></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-velocidad-constante-pos" class="quarto-xref">Equation&nbsp;<span>8.2</span></a>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
-\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
-\]</span> En el caso de que la velocidad es constante, <span class="math inline">\(v_x={\rm cte.}\)</span>, es decir tiene el mismo valor en todo tiempo, podemos realizar la integral de la velocidad <span class="math display">\[
-\int_{t_\ii}^{t_\ff} v_x\, dt = v_x \int_{t_\ii}^{t_\ff} \, dt = v_x ( t_\ff - t_\ii )
-\]</span> Igualando ambas expresiones tenemos que, <span class="math display">\[
-x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x ( t_\ff - t_\ii )  
-\]</span> Entonces, <span class="math display">\[
-x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x ( t_\ff - t_\ii )  
-\]</span></p>
-</div>
-</div>
-</div>
-</section>
-<section id="movimiento-con-aceleración-constante" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="movimiento-con-aceleración-constante"><span class="header-section-number">8.3</span> Movimiento con aceleración constante</h2>
-<p><span class="math display">\[
-a_x \iprn t_\ii \fprn = a_x \iprn t_\ff \fprn = {\rm constante} \\
-\]</span></p>
-<p><span id="eq-1d-aceleracion-constante-vel"><span class="math display">\[
-v_x\iprn t_\ff \fprn  = v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big)
-\tag{8.3}\]</span></span></p>
-<p><span id="eq-1d-aceleracion-constante-pos"><span class="math display">\[
-x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x\iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
-\tag{8.4}\]</span></span></p>
-<p><span id="eq-1d-aceleracion-constante-vel2"><span class="math display">\[
-v_x^2\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn + 2a_x \iprn t_i \fprn \big(  x\iprn t_\ff \fprn - x\iprn t_\ii \fprn \big)
-\tag{8.5}\]</span></span></p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-aceleracion-constante-vel" class="quarto-xref">Equation&nbsp;<span>8.3</span></a>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
-\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
-\]</span> Realizamos la integral de la aceleración <span class="math display">\[
-\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt = a_x(t_i) \int_{t_\ii}^{t_\ff} \,dt = a_x(t_i)\big( t_f - t_i \big)
-\]</span> Juntando ambas expresiones <span class="math display">\[
-v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn = a_x(t_\ii)\big( t_\ff - t_\ii \big)
-\]</span> Entonces, <span class="math display">\[
-v_x\iprn t_\ff \fprn = v_x\iprn t_\ii \fprn + a_x(t_i)\big( t_\ff - t_\ii \big)\,.
-\]</span></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-aceleracion-constante-pos" class="quarto-xref">Equation&nbsp;<span>8.4</span></a>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Con el fin de determinar la posición necesitamos <span class="math inline">\(v_x\iprn t \fprn\)</span>. En el caso de aceleración constante, <span class="math display">\[
-v_x\iprn t \fprn = v_x\iprn t_\ii \fprn + a_x(t_i)\big( t - t_\ii \big)\,.
-\]</span> Utilizando el Teorema Fundamental del Cálculo tenemos</p>
-<p><span class="math display">\[
-\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
-\]</span></p>
-<p>Ahora realicemos la integral con la expresión de la velocidad anterior</p>
-<p><span class="math display">\[
-\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt = \int_{t_\ii}^{t_\ff} v_x\iprn t_\ii \fprn + a_x \iprn t_i \fprn \big( t - t_\ii \big) \,dt
-\]</span></p>
-<p><span class="math display">\[
-\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt = v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
-\]</span></p>
-<p>Juntando ambas expresiones, <span class="math display">\[
-x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
-\]</span> Por lo tanto,</p>
-<p><span class="math display">\[
-x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
-\]</span></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-aceleracion-constante-vel2" class="quarto-xref">Equation&nbsp;<span>8.5</span></a>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>De la ecuación <a href="#eq-1d-aceleracion-constante-vel" class="quarto-xref">Equation&nbsp;<span>8.3</span></a> es posible despejar <span class="math inline">\((t_\ff-t_\ii)\)</span></p>
-<p><span class="math display">\[
-(t_\ff-t_\ii) = \frac{v_x(t_\ff)-v_x(t_\ii)}{a_x(t_\ii)}
-\]</span></p>
-<p>y sustituir en la ecuación <a href="#eq-1d-aceleracion-constante-pos" class="quarto-xref">Equation&nbsp;<span>8.4</span></a> <span class="math display">\[
-x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn\bigg( \frac{v_x \iprn t_\ff \fprn-v_x \iprn t_\ii \fprn}{a_x \iprn t_\ii \fprn} \bigg) + \frac{1}{2}a_x \iprn t_i \fprn \bigg( \frac{v_x \iprn t_\ff \fprn-v_x \iprn t_\ii \fprn}{a_x \iprn t_\ii \fprn} \bigg)^2
-\]</span></p>
-<p><span class="math display">\[
-x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn = \frac{ v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn  }{a_x \iprn t_\ii \fprn}+\frac{1}{2}\frac{ v_x^2\iprn t_\ff \fprn - 2 v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn  + v_x^2\iprn t_\ii \fprn  }{a_x \iprn t_\ii \fprn}
-\]</span></p>
-<p><span class="math display">\[
-2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = 2v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn - 2v_x^2\iprn t_\ii \fprn + v_x^2\iprn t_\ff \fprn - 2 v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn  + v_x^2\iprn t_\ii \fprn
-\]</span></p>
-<p><span class="math display">\[
-2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = v_x\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn
-\]</span></p>
-<p>Por lo tanto, <span class="math display">\[
-v_x\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn  + 2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn )
-\]</span></p>
 </div>
 </div>
 </div>
@@ -1196,8 +1038,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./2_3_ejercicios1D.html" class="pagination-link" aria-label="Ejercicios de movimiento en una dimensión">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Ejercicios de movimiento en una dimensión</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./2_2_1_movimientoacero.html" class="pagination-link" aria-label="Movimiento con aceleración cero (velocidad constante)">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Movimiento con aceleración cero (velocidad constante)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

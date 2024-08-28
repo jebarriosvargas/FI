@@ -1,0 +1,76 @@
+# Movimiento con aceleración cero (velocidad constante)
+
+$$
+\definecolor{magenta}{RGB}{255,0,144}
+\newcommand{\cparentesis}[1]{ {\color{magenta} #1} }
+\newcommand{\iprn}{\cparentesis{(}}
+\newcommand{\fprn}{\cparentesis{)}}
+\newcommand{\ii}{{\rm i}}
+\newcommand{\ff}{{\rm f}}
+$$
+
+$$
+a_x\iprn t_\ff \fprn = a_x \iprn t_\ii \fprn = 0\,{\rm m/s^2}
+$$
+
+$$
+v_x \iprn t_\ff \fprn = v_x \iprn t_\ii \fprn =\text{constante}
+$$ {#eq-1d-velocidad-constante-vel}
+
+$$
+x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big)
+$$ {#eq-1d-velocidad-constante-pos}
+
+::: {.column-margin}
+::: {.justify}
+Teorema fundamental del cálculo. Sea la derivada de $f$ una función de variable real continua en el intervalo $[a,b]$, entonces
+:::
+$$
+\int_a^b \bigg( \frac{d}{dt} f \bigg) dt = f(b) -f(a)
+$$ 
+:::
+
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Deducción de @eq-1d-velocidad-constante-vel
+De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
+$$
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+$$
+
+En el caso de que la aceleración es cero, la integral anterior es cero
+$$
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt = 0 \,{\rm m/s} = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+$$
+Entonces, 
+$$
+v_x\iprn t_\ff \fprn = v_x\iprn t_\ii \fprn = \text{constante}\,.
+$$
+:::
+
+
+
+
+::: {.callout-note appearance="simple" icon=false collapse="true"}
+## Deducción de @eq-1d-velocidad-constante-pos
+De acuerdo con el Teorema Fundamental del Cálculo tenemos que:
+$$
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
+$$
+En el caso de que la velocidad es constante, $v_x={\rm cte.}$, es decir tiene el mismo valor en todo tiempo, podemos realizar la integral de la velocidad
+$$
+\int_{t_\ii}^{t_\ff} v_x\, dt = v_x \int_{t_\ii}^{t_\ff} \, dt = v_x ( t_\ff - t_\ii ) 
+$$
+Igualando ambas expresiones tenemos que,
+$$
+x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x ( t_\ff - t_\ii )  
+$$
+Entonces,
+$$
+x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x ( t_\ff - t_\ii )  
+$$
+:::
+
+
+
+## Ejemplo
