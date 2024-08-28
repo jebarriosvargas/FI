@@ -16,4 +16,5 @@ $$
 x \iprn t \fprn = \ell \cos \iprn 2\pi \nu t \fprn
 $$
 
-donde $\ell$ es una unidad de longitud y $\nu$ tiene unidades de ${\rm s}^{-1}$. 
+donde $\ell$ es una unidad de longitud y $\nu$ tiene unidades de ${\rm s}^{-1}$.
+
