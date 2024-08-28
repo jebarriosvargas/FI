@@ -439,9 +439,10 @@ Distancia recorrida (<span class="math inline">\(s\)</span>)
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>La distancia recorrida desde un tiempo inicial, <span class="math inline">\(t_i\)</span>, a un tiempo final, <span class="math inline">\(t_f\)</span>, es <span class="math display">\[
-s = \int_{t_i}^{t_f} |v_{x}| dt
+<p>La distancia recorrida desde un tiempo inicial, <span class="math inline">\(t_\ii\)</span>, a un tiempo final, <span class="math inline">\(t_\ff\)</span>, es <span class="math display">\[
+s = \int_{t_\ii}^{t_\ff} |v_{x}| dt
 \]</span></p>
+<p>Video explicativo <a href="https://youtu.be/ykwjb-OGimE?si=c8cNM18cpxjsfQMJ&amp;t=510" class="uri">https://youtu.be/ykwjb-OGimE?si=c8cNM18cpxjsfQMJ&amp;t=510</a></p>
 </div>
 </div>
 </div>
@@ -449,13 +450,13 @@ s = \int_{t_i}^{t_f} |v_{x}| dt
 <section id="movimiento-con-aceleración-cero-velocidad-constante" class="level2 page-columns page-full" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="movimiento-con-aceleración-cero-velocidad-constante"><span class="header-section-number">8.2</span> Movimiento con aceleración cero (velocidad constante)</h2>
 <p><span class="math display">\[
-a_x\iprn t_f \fprn = a_x \iprn t_i \fprn = 0\,{\rm m/s^2}
+a_x\iprn t_\ff \fprn = a_x \iprn t_\ii \fprn = 0\,{\rm m/s^2}
 \]</span></p>
 <p><span id="eq-1d-velocidad-constante-vel"><span class="math display">\[
-v_x \iprn t_f \fprn = v_x \iprn t_i \fprn =\text{constante}
+v_x \iprn t_\ff \fprn = v_x \iprn t_\ii \fprn =\text{constante}
 \tag{8.1}\]</span></span></p>
 <p><span id="eq-1d-velocidad-constante-pos"><span class="math display">\[
-x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x \big( t_\ff - t_\ii \big)
+x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big)
 \tag{8.2}\]</span></span></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -515,21 +516,25 @@ x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x ( t_\ff - t_\ii )
 </section>
 <section id="movimiento-con-aceleración-constante" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="movimiento-con-aceleración-constante"><span class="header-section-number">8.3</span> Movimiento con aceleración constante</h2>
-<p><span id="eq-1d-aceleracion-constante"><span class="math display">\[
-\begin{align}
-a_x &amp;= {\rm constante} \\
-v_x\iprn t_\ff \fprn  &amp;= v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) \\
-x\iprn t_\ff \fprn  &amp;= x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x \big( t_\ff - t_\ii \big)\\
-v_x^2\iprn t_\ff \fprn &amp;= v_x^2\iprn t_\ii \fprn + 2a_x\big(  x\iprn t_\ff \fprn - x\iprn t_\ii \fprn \big)
-\end{align}
+<p><span class="math display">\[
+a_x \iprn t_\ii \fprn = a_x \iprn t_\ff \fprn = {\rm constante} \\
+\]</span></p>
+<p><span id="eq-1d-aceleracion-constante-vel"><span class="math display">\[
+v_x\iprn t_\ff \fprn  = v_x\iprn t_\ii \fprn + a_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big)
 \tag{8.3}\]</span></span></p>
+<p><span id="eq-1d-aceleracion-constante-pos"><span class="math display">\[
+x\iprn t_\ff \fprn  = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn \big( t_\ff - t_\ii \big) + \frac{1}{2} a_x\iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
+\tag{8.4}\]</span></span></p>
+<p><span id="eq-1d-aceleracion-constante-vel2"><span class="math display">\[
+v_x^2\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn + 2a_x \iprn t_i \fprn \big(  x\iprn t_\ff \fprn - x\iprn t_\ii \fprn \big)
+\tag{8.5}\]</span></span></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Deducción de <a href="#eq-1d-aceleracion-constante" class="quarto-xref">Equation&nbsp;<span>8.3</span></a>
+Deducción de <a href="#eq-1d-aceleracion-constante-vel" class="quarto-xref">Equation&nbsp;<span>8.3</span></a>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -537,8 +542,81 @@ Deducción de <a href="#eq-1d-aceleracion-constante" class="quarto-xref">Equatio
 <div class="callout-body-container callout-body">
 <p>De acuerdo con el Teorema Fundamental del Cálculo tenemos que: <span class="math display">\[
 \int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} v_x \bigg)dt  = v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn
+\]</span> Realizamos la integral de la aceleración <span class="math display">\[
+\int_{t_\ii}^{t_\ff} a_x\iprn t \fprn \,dt = a_x(t_i) \int_{t_\ii}^{t_\ff} \,dt = a_x(t_i)\big( t_f - t_i \big)
+\]</span> Juntando ambas expresiones <span class="math display">\[
+v_x\iprn t_\ff \fprn - v_x\iprn t_\ii \fprn = a_x(t_\ii)\big( t_\ff - t_\ii \big)
+\]</span> Entonces, <span class="math display">\[
+v_x\iprn t_\ff \fprn = v_x\iprn t_\ii \fprn + a_x(t_i)\big( t_\ff - t_\ii \big)\,.
 \]</span></p>
-<p>…</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deducción de <a href="#eq-1d-aceleracion-constante-pos" class="quarto-xref">Equation&nbsp;<span>8.4</span></a>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Con el fin de determinar la posición necesitamos <span class="math inline">\(v_x\iprn t \fprn\)</span>. En el caso de aceleración constante, <span class="math display">\[
+v_x\iprn t \fprn = v_x\iprn t_\ii \fprn + a_x(t_i)\big( t - t_\ii \big)\,.
+\]</span> Utilizando el Teorema Fundamental del Cálculo tenemos</p>
+<p><span class="math display">\[
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt =\int_{t_\ii}^{t_\ff} \bigg( \frac{d}{dt} x \bigg)dt  = x\iprn t_\ff \fprn - x\iprn t_\ii \fprn
+\]</span></p>
+<p>Ahora realicemos la integral con la expresión de la velocidad anterior</p>
+<p><span class="math display">\[
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt = \int_{t_\ii}^{t_\ff} v_x\iprn t_\ii \fprn + a_x \iprn t_i \fprn \big( t - t_\ii \big) \,dt
+\]</span></p>
+<p><span class="math display">\[
+\int_{t_\ii}^{t_\ff} v_x\iprn t \fprn \,dt = v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
+\]</span></p>
+<p>Juntando ambas expresiones, <span class="math display">\[
+x\iprn t_\ff \fprn - x\iprn t_\ii \fprn = v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
+\]</span> Por lo tanto,</p>
+<p><span class="math display">\[
+x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn\big( t_\ff -t_\ii \big) + \frac{1}{2}a_x \iprn t_i \fprn \big( t_\ff - t_\ii \big)^2
+\]</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Deducción de <a href="#eq-1d-aceleracion-constante-vel2" class="quarto-xref">Equation&nbsp;<span>8.5</span></a>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>De la ecuación <a href="#eq-1d-aceleracion-constante-vel" class="quarto-xref">Equation&nbsp;<span>8.3</span></a> es posible despejar <span class="math inline">\((t_\ff-t_\ii)\)</span></p>
+<p><span class="math display">\[
+(t_\ff-t_\ii) = \frac{v_x(t_\ff)-v_x(t_\ii)}{a_x(t_\ii)}
+\]</span></p>
+<p>y sustituir en la ecuación <a href="#eq-1d-aceleracion-constante-pos" class="quarto-xref">Equation&nbsp;<span>8.4</span></a> <span class="math display">\[
+x\iprn t_\ff \fprn = x\iprn t_\ii \fprn + v_x\iprn t_\ii \fprn\bigg( \frac{v_x \iprn t_\ff \fprn-v_x \iprn t_\ii \fprn}{a_x \iprn t_\ii \fprn} \bigg) + \frac{1}{2}a_x \iprn t_i \fprn \bigg( \frac{v_x \iprn t_\ff \fprn-v_x \iprn t_\ii \fprn}{a_x \iprn t_\ii \fprn} \bigg)^2
+\]</span></p>
+<p><span class="math display">\[
+x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn = \frac{ v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn  }{a_x \iprn t_\ii \fprn}+\frac{1}{2}\frac{ v_x^2\iprn t_\ff \fprn - 2 v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn  + v_x^2\iprn t_\ii \fprn  }{a_x \iprn t_\ii \fprn}
+\]</span></p>
+<p><span class="math display">\[
+2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = 2v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn - 2v_x^2\iprn t_\ii \fprn + v_x^2\iprn t_\ff \fprn - 2 v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn  + v_x^2\iprn t_\ii \fprn
+\]</span></p>
+<p><span class="math display">\[
+2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = v_x\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn
+\]</span></p>
+<p>Por lo tanto, <span class="math display">\[
+v_x\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn  + 2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn )
+\]</span></p>
 </div>
 </div>
 </div>
