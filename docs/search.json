@@ -244,12 +244,12 @@
   {
     "objectID": "2_3_ejercicios1D.html",
     "href": "2_3_ejercicios1D.html",
-    "title": "11  Ejercicios de movimiento en una dimensión",
+    "title": "12  Ejercicios de movimiento en una dimensión",
     "section": "",
     "text": "Clavados de altura\n\n\n\n\n\nEn el mundial de natación de Fukuoka 2023 se realizó la prueba de clavados de \\(20\\,{\\rm m}\\).\n\n¿Cuánto dura aproximadamente un clavado?\n¿Qué tan rápido llega la clavadista al impactar en el río?\n\n\n\n\n\n\n\n\n\n\n\nAterrizaje en portaviones\n\n\n\n\n\nUn jet aterriza en un portaviones a \\(140 \\,{\\rm mi/h}\\) (\\(\\approx 63\\,{\\rm m/s}\\)).\n\n¿Cuál es su aceleración (constante) si se detiene en \\(2.0\\,{\\rm s}\\) debido a un cable de arresto que traba al jet y lo deja en reposo.\nSi el jet toca al protaviones en la posición \\(x_i=0\\,{\\rm m}\\) ¿cuál es la posición final?\n\n\n\n\n\n\n\n\n\n\nObserve el límite de rapidez.\n\n\n\n\n\nUsted está conduciendo un automóvil que viaja con una velocidad constante de \\(45.0\\,{\\rm m/s}\\) pasa por donde está un patrullero en motocicleta oculto de trás de un anuncio espectacular. Un segundo después de que el automóvil pasa el anuncio, el patrullero sale de su escondite para detener al automóvil, que acelera con una razón constante de \\(3.0\\,{\\rm m/s^2}\\), ¿cuánto tiempo tarda en dar alcance al automóvil?\n\n\n\n\n\n\n\n\n\nDoble de acción\n\n\n\n\n\nUn doble de acción sentado en una rama de un árbol desea caer de forma vertical sobre un caballo que pasará galopando bajo el árbol. La rapidez constante del caballo es de \\(10.0\\,{\\rm m/s}\\) y el doble al inicio se encuentra a \\(3.0\\,{\\rm m}\\) arriba del nivel de la silla.\n\n¿Cuál debe ser la distancia horizontal entre la silla y la rama cuando el doble hace su acrobacia?\n¿Cuánto tiempo está en el aire?",
     "crumbs": [
       "U2. Movimiento en una dimensión",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Ejercicios de movimiento en una dimensión</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ejercicios de movimiento en una dimensión</span>"
     ]
   },
   {
@@ -365,6 +365,17 @@
     "crumbs": [
       "U1. Elementos básicos",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Graficación de funciones de una variable real</span>"
+    ]
+  },
+  {
+    "objectID": "3_1_vectores.html",
+    "href": "3_1_vectores.html",
+    "title": "13  Vectores",
+    "section": "",
+    "text": "Un vector en coordenadas cartesianas se escribe de tla manera: \\(\\vec{r}\\)",
+    "crumbs": [
+      "U3. Vectores y movimiento en más de una dimensión",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Vectores</span>"
     ]
   }
 ]

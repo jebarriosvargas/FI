@@ -1,0 +1,3 @@
+# Vectores
+Un vector en coordenadas cartesianas se escribe de tla manera:
+$\vec{r}$

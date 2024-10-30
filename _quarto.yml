@@ -25,6 +25,8 @@ book:
         - 2_2_3_movimientoavar.qmd
         - 2_3_ejercicios1D.qmd
     - part: "U3. Vectores y movimiento en más de una dimensión"
+      chapters:
+        - 3_1_vectores.qmd
     - part: "U4. Las leyes de movimiento"
     - part: "U5. Energía"
     - part: "U6. Cantidad de movimiento y choques"
