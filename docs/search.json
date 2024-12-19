@@ -14,7 +14,7 @@
     "href": "1_1_magnitudesfisicas.html",
     "title": "1  Magnitudes, potencias de diez, unidades y dimensiones",
     "section": "",
-    "text": "1.1 Unidades\nDe dichas constantes físicas se derivan las siete unidades fundamentales:\nOtras unidades derivadas\nNewton, \\({\\rm N}={\\rm kg}\\cdot {\\rm m}\\cdot{\\rm s}^{-2}\\)\nJoule, \\({\\rm J} = {\\rm kg} \\cdot {\\rm m}^{2}\\cdot{\\rm s}^{-2} = {\\rm N}\\cdot {\\rm m}\\)\nWatt, \\({\\rm W}={\\rm J}\\cdot{\\rm s}^{-1}={\\rm kg} \\cdot {\\rm m}^{2}\\cdot{\\rm s}^{-3}\\)",
+    "text": "1.1 Unidades\nLas siete constantes físicas son las siguientes:\nDe dichas constantes físicas se derivan las siete unidades fundamentales:\nOtras unidades derivadas\nNewton, \\({\\rm N}={\\rm kg}\\cdot {\\rm m}\\cdot{\\rm s}^{-2}\\)\nJoule, \\({\\rm J} = {\\rm kg} \\cdot {\\rm m}^{2}\\cdot{\\rm s}^{-2} = {\\rm N}\\cdot {\\rm m}\\)\nWatt, \\({\\rm W}={\\rm J}\\cdot{\\rm s}^{-1}={\\rm kg} \\cdot {\\rm m}^{2}\\cdot{\\rm s}^{-3}\\)",
     "crumbs": [
       "U1. Elementos básicos",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Magnitudes, potencias de diez, unidades y dimensiones</span>"
@@ -206,7 +206,7 @@
     "href": "2_2_movimiento1D.html",
     "title": "8  Movimiento en una dimensión",
     "section": "",
-    "text": "8.1 Cantidades físicas asociadas al movimiento",
+    "text": "8.1 Cantidades físicas asociadas al movimiento\n\\[\n\\definecolor{magenta}{RGB}{255,0,144}\n\\newcommand{\\cparentesis}[1]{ {\\color{magenta} #1} }\n\\newcommand{\\iprn}{\\cparentesis{(}}\n\\newcommand{\\fprn}{\\cparentesis{)}}\n\\newcommand{\\ii}{{\\rm i}}\n\\newcommand{\\ff}{{\\rm f}}\n\\]\nEl objetivo es determinar la posición de un objeto (partícula) en cada tiempo. Es decir, \\[\nx\\iprn t \\fprn\n\\]",
     "crumbs": [
       "U2. Movimiento en una dimensión",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Movimiento en una dimensión</span>"
@@ -339,7 +339,7 @@
     "href": "2_2_3_movimientoavar.html",
     "title": "11  Movimiento con aceleración dependiente del tiempo",
     "section": "",
-    "text": "11.1 Ejemplo\n\\[\nx \\iprn t \\fprn = \\ell \\cos \\iprn 2\\pi \\nu t \\fprn\n\\]\ndonde \\(\\ell\\) es una unidad de longitud y \\(\\nu\\) tiene unidades de \\({\\rm s}^{-1}\\).",
+    "text": "11.1 Ejemplo\n\\[\n\\definecolor{magenta}{RGB}{255,0,144}\n\\newcommand{\\cparentesis}[1]{ {\\color{magenta} #1} }\n\\newcommand{\\iprn}{\\cparentesis{(}}\n\\newcommand{\\fprn}{\\cparentesis{)}}\n\\newcommand{\\ii}{{\\rm i}}\n\\newcommand{\\ff}{{\\rm f}}\n\\]\n\\[\nx \\iprn t \\fprn = \\ell \\cos \\iprn 2\\pi \\nu t \\fprn\n\\]\ndonde \\(\\ell\\) es una unidad de longitud y \\(\\nu\\) tiene unidades de \\({\\rm s}^{-1}\\).",
     "crumbs": [
       "U2. Movimiento en una dimensión",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Movimiento con aceleración dependiente del tiempo</span>"
