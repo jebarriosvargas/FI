@@ -111,13 +111,12 @@ $$
 $$
 2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = 2v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn - 2v_x^2\iprn t_\ii \fprn + v_x^2\iprn t_\ff \fprn - 2 v_x\iprn t_\ii \fprn v_x\iprn t_\ff \fprn  + v_x^2\iprn t_\ii \fprn 
 $$
-
 $$
-2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = v_x\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn 
+2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) = v_x^2\iprn t_\ff \fprn - v_x^2\iprn t_\ii \fprn 
 $$
 
 Por lo tanto,
 $$
-v_x\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn  + 2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) 
+v_x^2\iprn t_\ff \fprn = v_x^2\iprn t_\ii \fprn  + 2 a_x \iprn t_\ii \fprn (x\iprn t_\ff \fprn  - x\iprn t_\ii \fprn ) 
 $$
 :::
