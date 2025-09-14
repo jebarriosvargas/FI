@@ -372,7 +372,7 @@
     "href": "3_1_vectores.html",
     "title": "13  Vectores",
     "section": "",
-    "text": "Un vector en coordenadas cartesianas se escribe de tla manera: \\(\\vec{r}\\)",
+    "text": "\\[\n\\definecolor{magenta}{RGB}{255,0,144}\n\\newcommand{\\cparentesis}[1]{ {\\color{magenta} #1} }\n\\newcommand{\\iprn}{\\cparentesis{(}}\n\\newcommand{\\fprn}{\\cparentesis{)}}\n\\newcommand{\\ii}{{\\rm i}}\n\\newcommand{\\ff}{{\\rm f}}\n\\]\nUn vector en coordenadas cartesianas se escribe de tal manera:\n\\[\n\\vec{r} = \\left[\\begin{array}{c} x\\\\ y \\\\ z \\end{array}\\right]\n\\]",
     "crumbs": [
       "U3. Vectores y movimiento en más de una dimensión",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Vectores</span>"

@@ -1,3 +1,17 @@
 # Vectores
-Un vector en coordenadas cartesianas se escribe de tla manera:
-$\vec{r}$
+
+$$
+\definecolor{magenta}{RGB}{255,0,144}
+\newcommand{\cparentesis}[1]{ {\color{magenta} #1} }
+\newcommand{\iprn}{\cparentesis{(}}
+\newcommand{\fprn}{\cparentesis{)}}
+\newcommand{\ii}{{\rm i}}
+\newcommand{\ff}{{\rm f}}
+$$
+
+Un vector en coordenadas cartesianas se escribe de tal manera:
+
+$$
+\vec{r} = \left[\begin{array}{c} x\\ y \\ z \end{array}\right]
+$$
+
